@@ -6,8 +6,8 @@ require 'washington/version'
 Gem::Specification.new do |spec|
   spec.name          = "washington"
   spec.version       = Washington::VERSION
-  spec.authors       = ["Fernando Via Canel"]
-  spec.email         = ["fernando.canel@klarna.com"]
+  spec.authors       = ["Xavier Via"]
+  spec.email         = ["fernando.via@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
