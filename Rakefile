@@ -1,1 +1,3 @@
-require "bundler/gem_tasks"
+require "./specs/washington"
+
+task :default

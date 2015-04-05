@@ -1,5 +1,8 @@
 require "washington/version"
+require "washington/example"
 
 module Washington
-  # Your code goes here...
+  def example
+    Washington::Example.new
+  end
 end

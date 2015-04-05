@@ -1,0 +1,3 @@
+require "washington"
+
+include Washington
