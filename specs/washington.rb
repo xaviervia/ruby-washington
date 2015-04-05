@@ -5,11 +5,8 @@ $:.unshift a.join("/") + "/lib"
 require "pry"
 require "washington/global"
 
-CLEAR      = "\e[0m"
-BOLD       = "\e[1m"
-
 def log text
-  puts BOLD + text + CLEAR
+  puts "\e[1m" + text + "\e[0m"
 end
 
 def cleanup!
